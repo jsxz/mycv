@@ -28,4 +28,5 @@ npm config set https-proxy http://127.0.0.1:9910
 ```
 ``` 
 pnpm i class-validator class-transformer
+pnpm i cookie-session @types/cookie-session
 ```

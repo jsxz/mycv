@@ -6,8 +6,16 @@ content-type: application/json
     "email":"anjun@g.com",
     "password":"123456"
 }
+### signin
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email":"anjun1@g.com",
+    "password":"123456"
+}
 ### find a particular user with a given ID
-GET http://localhost:3000/auth/1
+GET http://localhost:3000/auth/2
 
 ### find all users with email
 GET http://localhost:3000/auth?email=anjun@g.com
@@ -23,3 +31,9 @@ content-type: application/json
     "email":"anjun22@g.com",
     "password":"123456"
 }
+
+### set a color
+GET http://localhost:3000/auth/colors/red
+
+### get the color
+ GET http://localhost:3000/auth/colors
