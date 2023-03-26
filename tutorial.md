@@ -26,3 +26,6 @@ hpts -s 127.0.0.1:1080 -p 1081
 npm config set proxy http://127.0.0.1:9910
 npm config set https-proxy http://127.0.0.1:9910
 ```
+``` 
+pnpm i class-validator class-transformer
+```
